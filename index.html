@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragul.G - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #007BFF; /* Updated background color */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        a {
+            color: #2b13e5; /* Updated text color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #ea0f0f;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .contact-details {
+            text-align: left;
+        }
+
+        .profile-photo {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .profile-photo img {
+            width: 200px;
+            border-radius: 30%;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .education,
+        .technical-skills,
+        .coding-profiles,
+        .courses,
+        .projects {
+            margin-bottom: 30px;
+        }
+
+        .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+        .bar{
+            position: sticky;
+            top:0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bar">
+        <a href="#contact">Contact</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Technical Skills</a>
+        <a href="#profiles">Coding Profiles</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <section class="profile-photo">
+        <img src="C:\Users\91741\Desktop\Portfolio\MSV_6594-01-01.jpeg" alt="Ragul">
+    </section>
+
+    <section id="contact">
+        <div class="contact-info">
+            <div class="contact-details">
+                <p>Name:<b>Ragul.G</b></p>
+                <p>Degree: <b>Electronics and Communication Engineering</b></p>
+            </div>
+            <div>
+                <p>Phone: <b>+91 7418852818</b></p>
+                <p>Email: <a href="mailto:ragul.g2022ece@sece.ac.in">ragul.g2022ece@sece.ac.in</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/ragul-g-7bbb97259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn Profile</a></p>
+                <p>GitHub: <a href="https://github.com/Ragul2818">GitHub Profile</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <p>10th Standard: 97 %- M.A.M EXEL MHSS</p>
+        <p>12th Standard: 90 % - M.A.M EXEL MHSSC</p>
+        <p>Bachelor's in <b>Electronics and Communication Engineering</b> : CGPA 8.1
+            <br>Sri Eshwar College of Engineering, Coimbatore</p>
+    </section>
+    <section id="skills" class="technical-skills">
+        <h2>Technical Skills</h2>
+        <p>Languages: C, Python</p>
+        <p>Web Technologies: HTML, CSS, JS</p>
+        <p>Other Tools: VS-Code</p>
+    </section>
+
+    <section id="profiles" class="coding-profiles">
+        <h2>Coding Profiles</h2>
+        <p>LeetCode: <a href="https://leetcode.com/Ragul2818/">LeetCode Profile</a></p>
+        <p>CodeChef: <a href="https://www.codechef.com/users/ragul18">CodeChef Profile</a></p>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>Courses Completed</h2>
+        <p><b>Mastering Data Structures & Algorithms using C and C++ on Udemy Platform</b></p>
+        <p><b>Learn Java Programming Beginner to Master on Udemy Platform</b></p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Student Attendance Management System</h3>
+            <p>JavaFx project built with JavaFX and MYSQL. Developed in Eclipse.</p>
+            <p>Application to Manage Student Attendance System .</p>
+        </div>
+        <div class="project">
+            <h3>E-waste Management System</h3>
+            <p>JavaFX project built with JavaFX and MongoDB. Developed in Netbeans.</p>
+            <p>Application of a E-waste Managment System to maintain the electronic wastes.</p>
+        </div>
+
+        <div class="project">
+            <h3>Calender Generator</h3>
+            <p>Python project developed in Vs-code</p>
+            <p>Application of a Calender Generator System to maintain the important dates and specific event.</p>
+        </div>
+    </section>
+</body>
+
+</html>
